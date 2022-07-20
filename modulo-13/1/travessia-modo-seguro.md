@@ -1,6 +1,6 @@
 <!-- 1. Descrever um Algoritmo para resolver o problema da travessia de modo "seguro" -->
 
-### Algoritmo para o problema da travessia de modo "seguro"
+### Algoritmo para o problema da travessia de modo "seguro":
 1. Atravessa o rio com a cabra;
 2. Volta;
 3. Atravessa o rio com o maço de alfafa;
