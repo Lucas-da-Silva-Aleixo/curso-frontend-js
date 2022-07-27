@@ -1,0 +1,57 @@
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    background: #ddd;
+    padding: 20px;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+    color: #2121be;
+}
+
+input, button {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    border-color: blue;
+}
+
+input {
+    width: 80%;
+    padding: 1rem 2 rem;
+}
+
+button {
+    border: 0 none;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: #2121be;
+    width: 10rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4545c2;
+}
+
+#resultado {
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    color: #2121be;
+}
