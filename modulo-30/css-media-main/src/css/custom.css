@@ -1,0 +1,13 @@
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    color: lightblue;
+}
+
+h2 {
+    margin: 80px;
+    color: blue;
+    text-align: center;
+}
