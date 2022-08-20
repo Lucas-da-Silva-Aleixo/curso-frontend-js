@@ -41,3 +41,39 @@ h1 {
     margin-bottom: 3rem;
     padding: 0 1rem;
 }
+
+@media screen and (max-width: 1000px) {
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .nav__item {
+        color: #25F4EE;
+        font-size: 1.3rem;
+        text-decoration: none;
+        position: relative;
+        padding: 21px 21px;
+        margin-left: 22px;
+    }
+
+    #imagem {
+        width: 5px;
+        height: 5px;
+    }
+
+    .steps {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    #como {
+        font-size: 20px;
+    }
+}
