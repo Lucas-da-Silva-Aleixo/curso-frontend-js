@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    margin: 10px;
+    color: #FE2C55;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.nav__item {
+    color: #25F4EE;
+    font-size: 1.3rem;
+    text-decoration: none;
+    position: relative;
+    padding: 21px 21px;
+    margin-left: 160px;
+}
+
+.vitrine__item {
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 20rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.vitrine__desc {
+    color: black;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}

@@ -1,0 +1,15 @@
+#sobre {
+  background-color: none;
+}
+#sobre .container {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+  padding: 0 2rem 2rem;
+}
+#sobre article p {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=_sobre.css.map */

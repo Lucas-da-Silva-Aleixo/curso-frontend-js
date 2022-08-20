@@ -1,0 +1,56 @@
+.vitrine {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.vitrine__item {
+  background-color: rgba(250, 250, 250, 0.2);
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 20rem;
+  padding: 1rem;
+  position: relative;
+}
+.vitrine__item:hover {
+  animation: toTop;
+  animation-duration: 1s;
+  box-shadow: 0 0 2px 2px rgba(25, 25, 25, 0.2);
+}
+.vitrine__image {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+.vitrine__title {
+  font-size: 2rem;
+  color: #25F4EE;
+  text-align: center;
+  width: 100%;
+}
+.vitrine__desc {
+  color: #454545;
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+}
+.vitrine__button {
+  box-shadow: 0 0 2px 2px rgba(0, 150, 255, 0.2);
+  background-color: #FE2C55;
+  border-radius: 1rem;
+  border: 1px solid #FE2C55;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  align-self: center;
+  margin-bottom: 2rem;
+}
+.vitrine__button:hover {
+  box-shadow: 0 0 2px 2px #25F4EE;
+}
+
+/*# sourceMappingURL=_vitrine.css.map */

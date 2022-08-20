@@ -1,0 +1,17 @@
+$color-primary: #FE2C55;
+$color-secondary: #25F4EE;
+$font-color-primary: #ffffff;
+$font-color-secondary: #454545;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav: 1.8rem;
+
+footer {
+    p {
+        color: $font-color-primary;
+        font-size: $font-size-default;
+        a {
+            color: $color-secondary;
+        }
+    }
+}

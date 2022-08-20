@@ -1,0 +1,26 @@
+$color-primary: #FE2C55;
+$color-secondary: #25F4EE;
+$font-color-primary: #ffffff;
+$font-color-secondary: #454545;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav: 1.8rem;
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    align-items: center;
+
+    &__item {
+        color: $font-color-primary;
+        font-size: $font-size-nav;
+        text-decoration: none;
+        position: relative;
+        &:hover {
+            color: $color-secondary;
+            animation: toTop;
+            animation-duration: 1s;
+        }
+    }
+}

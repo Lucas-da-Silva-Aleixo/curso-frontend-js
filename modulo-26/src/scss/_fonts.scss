@@ -1,0 +1,16 @@
+$color-primary: #FE2C55;
+$color-secondary: #25F4EE;
+$font-color-primary: #ffffff;
+$font-color-secondary: #454545;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav: 1.8rem;
+
+@font-face {
+    font-family: 'freshman';
+    src: url('../assets/fonts/freshman-webfont.woff2') format('woff2'),
+         url('../assets/fonts/freshman-webfont.woff') format('woff'),
+         url('../assets/fonts/Freshman.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal
+}

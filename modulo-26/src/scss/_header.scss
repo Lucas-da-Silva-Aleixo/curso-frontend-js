@@ -1,0 +1,32 @@
+$color-primary: #FE2C55;
+$color-secondary: #25F4EE;
+$font-color-primary: #ffffff;
+$font-color-secondary: #454545;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$font-size-nav: 1.8rem;
+
+header .container {
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .hero {
+        align-items: flex-end;
+        background-image: url('../assets/images/banner-lance-me.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        height: 45rem;
+        display: flex;
+        padding-bottom: 4rem;
+        width: 100%;
+
+        h1 {
+            padding: 1rem 0 0;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+}

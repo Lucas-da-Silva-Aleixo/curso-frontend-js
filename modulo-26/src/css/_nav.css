@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+  align-items: center;
+}
+.nav__item {
+  color: #ffffff;
+  font-size: 1.8rem;
+  text-decoration: none;
+  position: relative;
+}
+.nav__item:hover {
+  color: #25F4EE;
+  animation: toTop;
+  animation-duration: 1s;
+}
+
+/*# sourceMappingURL=_nav.css.map */

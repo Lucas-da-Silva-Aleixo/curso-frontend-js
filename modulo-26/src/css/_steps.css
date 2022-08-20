@@ -1,0 +1,21 @@
+#como-funciona {
+  background: #ffffff;
+}
+
+.steps {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.steps__item {
+  margin: 1rem;
+  width: calc(16% - 1rem);
+  text-align: center;
+}
+.steps__item span {
+  color: #25F4EE;
+}
+
+/*# sourceMappingURL=_steps.css.map */
